@@ -14,6 +14,7 @@ cleanup(){
 
 trap cleanup INT
 
+echo "Press ctrl + c to stop and clean up."
 while :; do
     sleep 1
 done
